@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+     android:background="#cc000000">
+    
+    <LinearLayout
+        android:id="@+id/temp_linear01"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+         android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/share_to_friend"
+            style="@style/share_by_wx_button"
+            android:background="@drawable/wx" />
+
+        <ImageView
+            android:id="@+id/share_to_friends"
+            style="@style/share_by_wx_button"
+            android:background="@drawable/wx_friends" />
+
+        <ImageView
+            android:id="@+id/share_to_more"
+            style="@style/share_by_wx_button"
+            android:background="@drawable/btn_share_more" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/share_cancle"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40.0dip"
+        android:layout_below="@id/temp_linear01"
+        android:layout_marginRight="40.0dip"
+        android:gravity="center"
+        android:background="@drawable/select_share_cancle_but"
+        android:text="取消"
+        android:textColor="#ff838a8e" />
+  
+
+</RelativeLayout>

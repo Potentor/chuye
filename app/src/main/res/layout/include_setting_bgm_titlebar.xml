@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="15dp"
+        android:background="@drawable/back_btn_normal" />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="设置"
+	    android:textColor="#e96f25"
+	    android:textSize="15sp"
+	    />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="背景音乐"
+	    android:gravity="center"
+	    android:textColor="#e0000000"
+	    android:textSize="20sp"
+	    />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="完成"
+	    android:textColor="#e96f25"
+	    android:textSize="15sp"
+	    />
+</LinearLayout>

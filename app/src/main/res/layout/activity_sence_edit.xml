@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.hulian.firstpage.activity.SenceEditActivity">
+
+    <include android:id="@+id/sence_titlebar"
+        layout="@layout/sence_include_titlebar" />
+    <include layout="@layout/sence_include_center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sence_titlebar"
+        android:layout_above="@+id/sence_bottom"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="10dp"></include>
+
+    <include
+        android:id="@+id/sence_bottom"
+        layout="@layout/sence_include_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="78dp"
+        android:layout_width="match_parent" />
+</RelativeLayout>

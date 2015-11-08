@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="imageview_for_leftmenu">
+        <item name="android:layout_width">25.0dip</item>
+        <item name="android:layout_height">25.0dip</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="textview_in_leftmenu">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffb94630</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="textviewfornumber">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffababab</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="share_by_wx_button">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="share_popupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    <style name="my_edittext_style" parent="@android:style/Widget.EditText">
+
+
+    </style>
+</resources>

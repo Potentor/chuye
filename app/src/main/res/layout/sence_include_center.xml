@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:id="@+id/ll_zoom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="#10000000">
+
+        <com.hulian.firstpage.view.HorizontalListView
+            android:id="@+id/hlv_zoom"
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp">
+        </com.hulian.firstpage.view.HorizontalListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="点击缩略图移动或删除页面" />
+
+    </LinearLayout>
+
+    <com.jfeinstein.jazzyviewpager.JazzyViewPager
+        android:id="@+id/jvp_sence"
+        android:layout_centerHorizontal="true"
+        android:layout_width="180dp"
+        android:layout_height="320dp"
+        android:layout_below="@+id/ll_zoom" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e96f25"
+    android:layout_height="48dp" >
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:onClick="showMenu"
+        android:src="@drawable/list_btn_narmal_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:text="我的初页"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:onClick="addMode"
+        android:src="@drawable/selector_main_add"
+       />
+
+</RelativeLayout>

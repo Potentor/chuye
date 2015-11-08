@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirstPage</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_my_page">AddMyPageActivity</string>
+    <string name="title_activity_scene_edit">SceneEditActivity</string>
+    <string name="title_activity_clip_edit">ClipPictureActivity</string>
+    <string name="title_activity_scene_setting">SceneSettingActivity</string>
+    <string name="title_activity_choose_more_pic">ChooseMorePicActivity</string>
+    <string name="title_activity_show_sence">ShowSenceActivity</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment_title"
+        android:tag="SenceEditTitleFragment"
+        android:name="com.hulian.firstpage.fragment.SenceEditTitleFragment"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="40dp"/>
+
+    <fragment
+        android:tag="SenceEditCenterFragment"
+        android:name="com.hulian.firstpage.fragment.SenceEditCenterFragment"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/fragment_title"
+        android:layout_above="@+id/fragment_bottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment_bottom"
+        android:tag="SenceEditBottomFragment"
+        android:name="com.hulian.firstpage.fragment.SenceEditBottomFragment"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="70dp" />
+
+</RelativeLayout>

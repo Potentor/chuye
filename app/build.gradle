@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.hulian.firstpage"
+        minSdkVersion 8
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFile 'D:/Lianxw/Android/ws/FirstPage/app/proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile files('libs/com.loopj.android.image-1.0.0.jar')
+    compile files('libs/support-annotations-22.0.0.jar')
+    compile project(':upyunsdk')
+    compile(name: 'support-v4-21.0.2', ext: 'aar')
+    compile(name: 'appcompat-v7-21.0.2', ext: 'aar')
+    compile(name: 'jazzyviewpager', ext: 'aar')
+    compile(name: 'pulltorefresh', ext: 'aar')
+    compile(name: 'stickylistheaders', ext: 'aar')
+}
